@@ -1,7 +1,7 @@
 
 # CMS development experience
 
-Expert in both Back-end and Front-end Programming, PHP - OOP, MVC, REST API, HTML/CSS/JAVASCRIPT, CodeIgniter, Laravel, Angular Js, React, Node JS, WordPress Theme Integration, WooCommerce Ecommerce, Magneto, Shopify, Responsive Design, Plugin Development, Adaptive websites, White Hat SEO, Android and IOS App Development.
+Expert in both Back-end and Front-end Programming, PHP - OOP, MVC, REST API, HTML/CSS/JAVASCRIPT, Angular Js, React, Node JS, WordPress Theme Integration, WooCommerce Ecommerce, Magneto, Shopify, Responsive Design, Plugin Development, Adaptive websites, White Hat SEO, Android and IOS App Development.
 A brief description of what this project does and who it's for showing my CMS development experience.
 
 
