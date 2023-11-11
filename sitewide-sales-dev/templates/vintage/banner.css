@@ -1,0 +1,64 @@
+/**
+ * Vintage Template for Sitewide Sales
+ *
+ * Banner Styles 
+ */
+
+#swsales-banner-wrap-vintage .swsales-banner {
+	background: #1D2A2F url(images/green-dust-and-scratches.png) repeat;
+	color: #E5DFBD;
+}
+#swsales-banner-wrap-vintage .swsales-banner-title {
+	border: 5px double rgba( 229, 223, 189, 0.3 );
+	border-radius: 10px;
+	color: #E5DFBD;
+	display: inline-block;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 30px;
+	margin: 0;
+	padding: 5px 15px;
+	text-shadow: 6px 6px 0px rgba( 0, 0, 0, 0.3 );
+	transform: rotate(-2.5deg);
+}
+#swsales-banner-wrap-vintage .swsales-banner-content {
+	text-shadow: 2px 2px 0px rgba( 0, 0, 0, 0.3 );
+}
+#swsales-banner-wrap-vintage a.swsales-dismiss:before {
+	color: #666;
+}
+#swsales-banner-wrap-vintage .swsales-banner a.swsales-banner-button,
+#swsales-banner-wrap-vintage .swsales-banner a.swsales-banner-button:focus,
+#swsales-banner-wrap-vintage .swsales-banner a.swsales-banner-button:visited {
+	background: #E5DFBD;
+	color: #1D2A2F;
+}
+#swsales-banner-wrap-vintage .swsales-banner a.swsales-banner-button:hover {
+	background: #F4F0D8;
+	color: #1D2A2F;
+}
+/* Top Banner */
+#swsales-banner-wrap-vintage #swsales-banner-top .swsales-banner-title {
+	margin-bottom: 10px;
+}
+#swsales-banner-wrap-vintage #swsales-banner-top .swsales-banner-content {
+	margin-bottom: 15px;
+}
+/* Bottom Banner */
+#swsales-banner-wrap-vintage #swsales-banner-bottom p.swsales-banner-title {
+	display: inline-block;
+	padding: 2px 6px;
+}
+/* Bottom Right Banner */
+#swsales-banner-wrap-vintage #swsales-banner-bottom-right p.swsales-banner-title {
+	padding: 2px 6px;
+}
+
+/* Responsive Styles */
+@media only screen and (min-width: 768px) {
+	#swsales-banner-wrap-vintage #swsales-banner-top .swsales-banner-title,
+	#swsales-banner-wrap-vintage #swsales-banner-top .swsales-banner-content {
+		margin-bottom: 0;
+		margin-right: 10px;
+	}
+}

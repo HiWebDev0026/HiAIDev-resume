@@ -1,0 +1,40 @@
+/**
+ * Gradient Template for Sitewide Sales
+ *
+ * Banner Styles 
+ */
+
+#swsales-banner-wrap-gradient a.swsales-dismiss:before {
+	color: #FFF;
+}
+#swsales-banner-wrap-gradient #swsales-banner-top p.swsales-banner-title {
+	border-right: 1px solid rgba( 255, 255, 255, 0.3 );
+	margin-right: 15px;
+	padding-right: 15px;
+}
+#swsales-banner-wrap-gradient #swsales-banner-top .swsales-banner-button-wrap {
+	margin-left: 15px;
+}
+#swsales-banner-wrap-gradient .swsales-banner {
+	background: linear-gradient(270deg, #4bcf93, #4b79cf, #a24bcf);
+	background-size: 600% 600%;
+	color: #FFF;
+	-webkit-animation: SWSGradient 30s ease infinite;
+	-moz-animation: SWSGradient 30s ease infinite;
+	animation: SWSGradient 30s ease infinite;
+}
+@-webkit-keyframes SWSGradient {
+	0%{background-position:0% 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0% 50%}
+}
+@-moz-keyframes SWSGradient {
+	0%{background-position:0% 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0% 50%}
+}
+@keyframes SWSGradient {
+	0%{background-position:0% 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0% 50%}
+}

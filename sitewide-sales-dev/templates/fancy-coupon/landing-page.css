@@ -1,0 +1,88 @@
+/**
+ * Fancy Coupon Template for Sitewide Sales
+ *
+ * Landing Page Styles 
+ */
+ 
+html,
+body.swsales-landing-page-fancy_coupon,
+body.swsales-landing-page-fancy_coupon article {
+	background: #FFCC00;
+	height: 100%;
+}
+#swsales-landing-page-wrap-fancy_coupon {
+	background: #FFCC00;
+	height: 100%;
+	margin-top: 0;
+	padding: 40px;
+}
+.swsales-landing-page-fancy_coupon .swsales-landing-page-content {
+	color: #000;
+}
+.swsales-landing-page-fancy_coupon .swsales-landing-page-content h1,
+.swsales-landing-page-fancy_coupon .swsales-landing-page-content h2 {
+	background: rgba( 255, 255, 255, 0.3 );
+	display: inline-block;
+	margin: 0;
+	padding: 0 5px;
+}
+.swsales-landing-page-fancy_coupon .swsales-landing-page-content h1,
+.swsales-landing-page-fancy_coupon .swsales-landing-page-content h2,
+.swsales-landing-page-fancy_coupon .swsales-landing-page-content p {
+	text-align: left;
+}
+.swsales-landing-page-fancy_coupon .swsales-landing-page-fancy_coupon-coupon h3 {
+	border: 8px dashed #000;
+	color: #000;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 50px;
+	margin-bottom: 40px;
+	padding: 10px 10px 20px 10px;
+	text-align: center;
+}
+.swsales-landing-page-fancy_coupon .swsales-landing-page-fancy_coupon-coupon h3 small {
+	font-size: 25px;
+}
+
+/* Paid Memberships Pro Integration Specific Styles */
+.swsales-landing-page-fancy_coupon #pmpro_form {
+	background-color: #FFF;
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 20px;
+}
+.swsales-landing-page-fancy_coupon #pmpro_form hr {
+	margin: 20px 0;
+}
+
+/* WooCommerce Integration Specific Styles */
+.swsales-landing-page-fancy_coupon .woocommerce { 
+	background-color: #FFF;
+	margin: 0 auto;
+	padding: 40px;
+}
+
+/* Easy Digital Downloads Integration Specific Styles */
+.swsales-landing-page-fancy_coupon .edd_downloads_list {
+	background-color: #FFF;
+	margin: 0 auto;
+	padding: 40px;
+}
+
+/* Responsive Styles */
+@media only screen and (min-width: 768px) {
+	.swsales-landing-page-fancy_coupon-coupon {
+		position: fixed;
+		top: 0px;
+		right: 40px;
+		width: 35%;
+	}
+	.admin-bar .swsales-landing-page-fancy_coupon-coupon {
+		top: 40px;
+	}
+	.swsales-landing-page-fancy_coupon .swsales-landing-page-content {
+		display: inline-block;
+		width: 60%;
+	}
+}

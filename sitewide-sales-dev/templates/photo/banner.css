@@ -1,0 +1,70 @@
+/**
+ * Photo Template for Sitewide Sales
+ *
+ * Banner Styles 
+ */
+
+#swsales-banner-wrap-photo .swsales-banner {
+	background-image: linear-gradient(to bottom, rgba(0, 0 , 0, 1), rgba(0, 0, 0, 0.5) );
+	color: #FFF;
+}
+#swsales-banner-wrap-photo .swsales-banner a.swsales-banner-button,
+#swsales-banner-wrap-photo .swsales-banner a.swsales-banner-button:focus,
+#swsales-banner-wrap-photo .swsales-banner a.swsales-banner-button:visited {
+	padding-bottom: 8px;
+	padding-top: 8px;
+}
+#swsales-banner-wrap-photo .swsales-banner a.swsales-banner-button:hover {
+	background-color: #000;
+	box-shadow:  0px 0px 5px rgba(255, 255, 255, 0.4);
+}
+
+/* Top Banner */
+#swsales-banner-wrap-photo #swsales-banner-top .swsales-banner-title,
+#swsales-banner-wrap-photo #swsales-banner-top .swsales-banner-content {
+	margin-bottom: 10px;
+}
+
+/* Bottom Banner */
+#swsales-banner-wrap-photo #swsales-banner-bottom .swsales-banner-inner {
+	max-width: 100%;
+	padding: 10px;
+}
+#swsales-banner-wrap-photo #swsales-banner-bottom {
+	border-radius: 20px;
+	margin: 15px;
+	padding: 20px;
+	width: auto;
+}
+
+/* Bottom Right Banner */
+
+/* Responsive Styles */
+@media only screen and (min-width: 768px) {
+	#swsales-banner-wrap-photo #swsales-banner-top,
+	#swsales-banner-wrap-photo #swsales-banner-bottom {
+		background-image: linear-gradient(to right, rgba(0, 0 , 0, 1), rgba(0, 0, 0, 0.5) );
+	}
+	#swsales-banner-wrap-photo #swsales-banner-top .swsales-banner-title,
+	#swsales-banner-wrap-photo #swsales-banner-bottom .swsales-banner-title {
+		border-right: 1px solid rgba( 255, 255, 255, 0.3 );
+		display: inline-block;
+		margin-bottom: 0;
+		margin-right: 15px;
+		padding-right: 15px;
+	}
+	#swsales-banner-wrap-photo #swsales-banner-top .swsales-banner-content,
+	#swsales-banner-wrap-photo #swsales-banner-bottom .swsales-banner-content {
+		display: inline-block;
+		margin-bottom: 0;
+		margin-right: 15px;
+	}
+	#swsales-banner-wrap-photo #swsales-banner-bottom .swsales-banner-inner-right .swsales-banner-button-wrap {
+		margin-top: 0;
+	}
+	#swsales-banner-wrap-photo #swsales-banner-bottom-right {
+		border-radius: 20px;
+		margin: 15px;
+		padding: 25px;
+	}
+}
