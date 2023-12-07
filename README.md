@@ -18,7 +18,7 @@ I'm a CMS developer, especially like Wordpress plugin development...
 Javascript, HTML, CSS, React.js, Express.js, PHP, WordPress...
 
 
-## Sample work is WordPress:
+## You can refer this link to know about me:
 
  - [The Lean Box](https://theleanbox.com/)
  - [Mtederlaw](http://www.mtelderlaw.com/)
