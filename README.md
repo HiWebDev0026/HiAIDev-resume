@@ -6,7 +6,7 @@ A brief description of what this project does and who it's for showing my CMS de
 
 
 ## 🚀 About Me
-I'm a CMS developer, especially like Wordpress plugin development...
+I'm a CMS developer, especially like WordPress plugin development...
 
 
 ## Tech Stack
