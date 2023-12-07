@@ -1,0 +1,88 @@
+/**
+ * Vintage Template for Sitewide Sales
+ *
+ * Landing Page Styles 
+ */
+
+#swsales-landing-page-wrap-vintage {
+	background: #1D2A2F url(images/green-dust-and-scratches.png) repeat;
+	padding: 20px 0 40px 0;
+}
+.swsales-landing-page-vintage .swsales-landing-page-content {
+	margin: 0 auto;
+	text-align: center;
+}
+.swsales-landing-page-vintage .swsales-landing-page-content h1 {
+	border: 10px double rgba( 229, 223, 189, 0.3 );
+	border-radius: 20px;
+	color: #E5DFBD;
+	display: inline-block;
+	font-weight: 700;
+	margin: 40px 0 0 0;
+	padding: 20px 40px;
+	text-shadow: 6px 6px 0px rgba( 0, 0, 0, 0.3 );
+	transform: rotate(-2.5deg);
+}
+.swsales-landing-page-vintage .swsales-landing-page-content h4 {
+	color: #E5DFBD;
+	text-shadow: 2px 2px 0px rgba( 0, 0, 0, 0.3 );
+}
+
+/* Paid Memberships Pro Integration Specific Styles */
+.swsales-landing-page-vintage #pmpro_form {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	max-width: 800px;
+	text-align: initial;
+}
+.swsales-landing-page-vintage #pmpro_form hr {
+	display: none;
+}
+.swsales-landing-page-vintage form#pmpro_form .pmpro_checkout {
+	background: #FFF;
+	margin: 20px 0;
+}
+.swsales-landing-page-vintage form#pmpro_form .pmpro_checkout h3 {
+	background: #E5DFBD;
+	border: none;
+	color: #1D2A2F;
+	font-size: 2.6rem;
+}
+.swsales-landing-page-vintage form#pmpro_form .pmpro_checkout h3 span.pmpro_checkout-h3-name {
+	font-weight: 300;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.swsales-landing-page-vintage form#pmpro_form .pmpro_checkout .pmpro_sslseal {
+	text-align: center;
+}
+
+/* WooCommerce Integration Specific Styles */
+.swsales-landing-page-vintage .woocommerce { 
+	background: #FFF;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	max-width: 800px;
+	padding: 20px;
+	text-align: initial;
+}
+
+/* Easy Digital Downloads Integration Specific Styles */
+.swsales-landing-page-vintage .edd_downloads_list {
+	background: #FFF;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	max-width: 800px;
+	padding: 20px;
+	text-align: initial;
+}
+
+/* Responsive Styles */
+@media only screen and (min-width: 768px) {
+	.swsales-landing-page-vintage .swsales-landing-page-content {
+		max-width: 1170px;
+	}
+}

@@ -1,0 +1,73 @@
+/**
+ * Scroll Template for Sitewide Sales
+ *
+ * Banner Styles 
+ */
+
+#swsales-banner-wrap-scroll .swsales-banner {
+	background: #E4E3DF;
+	color: #000;
+}
+#swsales-banner-wrap-scroll a.swsales-dismiss:before {
+	color: #B5B5A5;
+}
+#swsales-banner-wrap-scroll #swsales-banner-top .swsales-banner-inner,
+#swsales-banner-wrap-scroll #swsales-banner-bottom .swsales-banner-inner {
+	animation: swsalesScrollSlideIn 1s;
+}
+#swsales-banner-wrap-scroll .swsales-banner-title {
+	animation: swsalesScrollFadeIn 4s;
+}
+#swsales-banner-wrap-scroll .swsales-banner-content {
+	animation: swsalesScrollFadeIn 4s;
+}
+#swsales-banner-wrap-scroll .swsales-banner a.swsales-banner-button,
+#swsales-banner-wrap-scroll .swsales-banner a.swsales-banner-button:focus,
+#swsales-banner-wrap-scroll .swsales-banner a.swsales-banner-button:visited {
+	background: rgba( 255, 255, 255, 0.6 );
+	color: #000;
+}
+#swsales-banner-wrap-scroll .swsales-banner a.swsales-banner-button:hover {
+	background: rgba( 255, 255, 255, 1.0 );
+	color: #000;
+}
+#swsales-banner-wrap-scroll #swsales-banner-top .swsales-banner-title ,
+#swsales-banner-wrap-scroll #swsales-banner-bottom .swsales-banner-title {
+	border: 2px dashed #FFF;
+	display: inline-block;
+	padding: 2px 5px;
+}
+
+@keyframes swsalesScrollSlideIn {
+	from {
+		margin-left: 100%;
+		width: 300%;
+	}
+	to {
+		margin-left: 0%;
+		width: 100%;
+	}
+}
+@keyframes swsalesScrollFadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+/* Top Banner */
+#swsales-banner-wrap-scroll #swsales-banner-top .swsales-banner-title,
+#swsales-banner-wrap-scroll #swsales-banner-top .swsales-banner-content {
+	margin-bottom: 10px;
+}
+
+/* Responsive Styles */
+@media only screen and (min-width: 768px) {
+	#swsales-banner-wrap-scroll #swsales-banner-top .swsales-banner-title,
+	#swsales-banner-wrap-scroll #swsales-banner-top .swsales-banner-content {
+		margin-bottom: 0;
+		margin-right: 10px;
+	}
+}

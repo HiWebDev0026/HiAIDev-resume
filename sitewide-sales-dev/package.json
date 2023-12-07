@@ -1,0 +1,31 @@
+{
+  "name": "sitewide-sales",
+  "version": "1.4.0",
+  "description": "Flash Sales for WordPress",
+  "main": "webpack.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strangerstudios/sitewide-sales.git"
+  },
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "keywords": [
+    "wordpress",
+    "sales",
+    "sitewide"
+  ],
+  "author": "Stranger Studios",
+  "license": "GPL-2.0",
+  "devDependencies": {
+    "@wordpress/scripts": "^7.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/strangerstudios/sitewide-sales/issues"
+  },
+  "homepage": "https://github.com/strangerstudios/sitewide-sales#readme"
+}

@@ -1,0 +1,1358 @@
+# Copyright (C) 2023 Stranger Studios
+# This file is distributed under the GNU GPLv2+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Sitewide Sales 1.4\n"
+"Report-Msgid-Bugs-To: info@strangerstudios.com\n"
+"Last-Translator: Stranger Studios <info@strangerstudios.com>\n"
+"Language-Team: Stranger Studios <info@strangerstudios.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-11-01T20:27:22+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: sitewide-sales\n"
+
+#. Plugin Name of the plugin
+#: blocks/blocks.php:26
+#: classes/class-swsales-post-types.php:37
+#: classes/class-swsales-post-types.php:38
+#: classes/class-swsales-post-types.php:56
+#: classes/class-swsales-post-types.php:58
+#: includes/admin.php:22
+#: includes/compatibility/divi.php:24
+#: includes/compatibility/divi.php:28
+#: includes/compatibility/elementor/class-swsales-elementor.php:67
+msgid "Sitewide Sales"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://sitewidesales.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Run Black Friday, Cyber Monday, or other flash sales on your WordPress-powered eCommerce or membership site."
+msgstr ""
+
+#. Author of the plugin
+msgid "Stranger Studios"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.strangerstudios.com"
+msgstr ""
+
+#: blocks/blocks.php:50
+msgid "Dashed Border"
+msgstr ""
+
+#: blocks/blocks.php:65
+msgid "Highlight"
+msgstr ""
+
+#: classes/class-swsales-about.php:19
+#: classes/class-swsales-about.php:20
+msgid "About"
+msgstr ""
+
+#: classes/class-swsales-about.php:30
+msgid "About Sitewide Sales"
+msgstr ""
+
+#: classes/class-swsales-about.php:41
+msgid "Sitewide Sales helps you run Black Friday, Cyber Monday, or other flash sales on your WordPress-powered eCommerce or membership site."
+msgstr ""
+
+#: classes/class-swsales-about.php:42
+msgid "We currently offer integration for <a href=\"%s\" title=\"Paid Memberships Pro\" target=\"_blank\">Paid Memberships Pro</a>, <a href=\"%s\" title=\"WooCommerce\" target=\"_blank\">WooCommerce</a>, and <a href=\"%s\" title=\"Easy Digital Downloads\" target=\"_blank\">Easy Digital Downloads</a>."
+msgstr ""
+
+#: classes/class-swsales-about.php:43
+msgid "There is also a <a href=\"%s\" title=\"Custom Module\" target=\"_blank\">custom module</a> you can use to track performance with any other platforms you choose."
+msgstr ""
+
+#: classes/class-swsales-about.php:44
+msgid "Getting Started"
+msgstr ""
+
+#: classes/class-swsales-about.php:45
+msgid "This plugin handles your banners, notification bars, landing pages, and reporting. Running a sale like this used to require three or more separate plugins. Now you can run your sale with a single tool. At the same time, the Sitewide Sales plugin is flexible enough that you can use specific banner and landing page plugins if wanted."
+msgstr ""
+
+#: classes/class-swsales-about.php:46
+msgid "Check out the Sitewide Sales documentation site for additional setup instructions, sample landing page and banner content, as well as developer documentation to further extend the templates, reporting, and integration options."
+msgstr ""
+
+#: classes/class-swsales-about.php:48
+#: classes/class-swsales-metaboxes.php:85
+#: includes/admin.php:27
+msgid "Documentation"
+msgstr ""
+
+#: classes/class-swsales-about.php:48
+msgid "View Support Options &raquo;"
+msgstr ""
+
+#: classes/class-swsales-landing-pages.php:142
+#: blocks/countdown-timer/block.js:91
+msgid "Days"
+msgstr ""
+
+#: classes/class-swsales-landing-pages.php:143
+#: blocks/countdown-timer/block.js:97
+msgid "Hours"
+msgstr ""
+
+#: classes/class-swsales-landing-pages.php:144
+#: blocks/countdown-timer/block.js:103
+msgid "Minutes"
+msgstr ""
+
+#: classes/class-swsales-landing-pages.php:145
+#: blocks/countdown-timer/block.js:109
+msgid "Seconds"
+msgstr ""
+
+#: classes/class-swsales-landing-pages.php:254
+#: classes/class-swsales-landing-pages.php:291
+#: classes/class-swsales-metaboxes.php:852
+msgid "Sitewide Sale Landing Page"
+msgstr ""
+
+#: classes/class-swsales-landing-pages.php:274
+#: classes/class-swsales-landing-pages.php:275
+#: classes/class-swsales-landing-pages.php:307
+#: classes/class-swsales-post-types.php:43
+msgid "Edit Sitewide Sale"
+msgstr ""
+
+#: classes/class-swsales-landing-pages.php:303
+msgid "Use the Sale Content block or Sale Period Visibility setting to display content before, during, and after the sale on this landing page."
+msgstr ""
+
+#: classes/class-swsales-license.php:23
+msgid "License"
+msgstr ""
+
+#: classes/class-swsales-license.php:24
+msgid "<span style=\"color: "
+msgstr ""
+
+#: classes/class-swsales-license.php:35
+msgid "You do not have permissions to perform this action."
+msgstr ""
+
+#: classes/class-swsales-license.php:54
+msgid "Sitewide Sales Support License"
+msgstr ""
+
+#: classes/class-swsales-license.php:56
+msgid "Enter your support license key.</strong> Your license key can be found in your purchase confirmation email or in your <a href=\"https://www.strangerstudios.com/login/?redirect_to=%2Faccount%2F%3Futm_source%3Dplugin%26utm_medium%3Dswsales-license%26utm_campaign%3Daccount%26utm_content%3Dno-key\" target=\"_blank\">account area</a>."
+msgstr ""
+
+#: classes/class-swsales-license.php:58
+msgid "Your license is invalid or expired."
+msgstr ""
+
+#: classes/class-swsales-license.php:58
+msgid "Visit the <a href=\"https://www.strangerstudios.com/login/?redirect_to=%2Faccount%2F%3Futm_source%3Dplugin%26utm_medium%3Dswsales-license%26utm_campaign%3Daccount%26utm_content%3Dkey-not-valid\" target=\"_blank\">account area</a> to confirm that your account is active and to find your license key."
+msgstr ""
+
+#: classes/class-swsales-license.php:60
+msgid "<strong>Thank you!</strong> A valid license key has been used to activate your support license on this site."
+msgstr ""
+
+#: classes/class-swsales-license.php:68
+msgid "Enter license key here..."
+msgstr ""
+
+#: classes/class-swsales-license.php:70
+msgid "Validate Key"
+msgstr ""
+
+#: classes/class-swsales-license.php:104
+msgid "Sitewide Sales is distributed under the GPLv2 license. This means, among other things, that you may use the software on this site or any other site free of charge."
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:48
+#: classes/class-swsales-metaboxes.php:497
+#: modules/banner/blocks/class-swsales-banner-module-blocks.php:237
+msgid "Draft"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:69
+msgid "Admin"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:77
+msgid "Quick Reports"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:93
+msgid "Start and End Dates"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:101
+#: classes/class-swsales-metaboxes.php:294
+#: classes/class-swsales-post-types.php:96
+msgid "Sale Type"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:109
+msgid "Sale Banner"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:117
+#: classes/class-swsales-metaboxes.php:484
+#: classes/class-swsales-post-types.php:97
+msgid "Landing Page"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:183
+msgid "Set as Current Sitewide Sale"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:190
+#: classes/class-swsales-metaboxes.php:276
+#: classes/class-swsales-metaboxes.php:365
+#: classes/class-swsales-metaboxes.php:465
+#: classes/class-swsales-metaboxes.php:658
+msgid "Save All Settings"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:200
+#: classes/class-swsales-metaboxes.php:201
+msgid "About the Plugin"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:202
+#: classes/class-swsales-metaboxes.php:206
+#: classes/class-swsales-metaboxes.php:210
+#: classes/class-swsales-metaboxes.php:214
+#: classes/class-swsales-metaboxes.php:218
+#: classes/class-swsales-metaboxes.php:222
+#: classes/class-swsales-metaboxes.php:226
+#: classes/class-swsales-metaboxes.php:230
+msgid "(opens in a new tab)"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:204
+#: classes/class-swsales-metaboxes.php:205
+msgid "Getting Started With Sitewide Sales"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:208
+#: classes/class-swsales-metaboxes.php:209
+msgid "Setting the Sale Start and End Date"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:212
+#: classes/class-swsales-metaboxes.php:213
+msgid "Choosing a Sale Type and Discount Code or Coupon"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:216
+#: classes/class-swsales-metaboxes.php:217
+msgid "Designing Your Sale Landing Page"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:220
+#: classes/class-swsales-metaboxes.php:221
+msgid "Setting Up the Active Sales Banner"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:224
+#: classes/class-swsales-metaboxes.php:225
+msgid "Viewing Sitewide Sale Reports"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:228
+#: classes/class-swsales-metaboxes.php:229
+msgid "Extend Sitewide Sales via Action and Filter Hooks"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:241
+msgid "Enter title here. (For reference only.)"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:254
+msgid "These fields control when the banner (if applicable) and built-in sale reporting will be active for your site. They also control what content is displayed on your sale Landing Page according to the \"Landing Page\" settings below."
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:259
+#: blocks/countdown-timer/block.js:81
+msgid "Sale Start Date"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:263
+msgid "Set this date and time to when your sale should begin."
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:267
+#: blocks/countdown-timer/block.js:80
+msgid "Sale End Date"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:271
+msgid "Set this date and time to when your sale should end."
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:297
+#: classes/class-swsales-reports.php:111
+#: modules/banner/blocks/class-swsales-banner-module-blocks.php:229
+#: modules/ecommerce/edd/class-swsales-module-edd.php:109
+#: modules/ecommerce/pmpro/class-swsales-module-pmpro.php:114
+#: modules/ecommerce/pmpro/class-swsales-module-pmpro.php:231
+#: modules/ecommerce/wc/class-swsales-module-wc.php:104
+msgid "- Choose One -"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:317
+msgid "Hide Sale by Role"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:324
+#: classes/class-swsales-metaboxes.php:444
+msgid "Logged Out"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:333
+msgid "This setting will completely hide the sale from users with the selected roles (including the banner and discount logic)."
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:337
+msgid "Apply Discount Automatically"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:344
+msgid "Do not apply discount automatically."
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:350
+msgid "Apply discount automatically if user has seen the landing page."
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:356
+msgid "Always apply discount automatically."
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:360
+msgid "Caching plugins may interfere with this functionality. If using caching on your site, consider never giving an automatic discount or always giving an automatic discount."
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:384
+msgid "Banner Type"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:387
+msgid "- No Banner -"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:412
+msgid "Banner Close Behavior"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:415
+msgid "Close Until Refresh"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:416
+msgid "Close Until New Session"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:418
+msgid "Select when the banner will reappear if the user closes or dismisses the banner."
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:425
+msgid "Hide Banner at Checkout"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:428
+msgid "Check this box to hide the banner on checkout pages."
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:429
+msgid "Recommended: Leave checked so only users using your landing page will pay the sale price."
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:437
+msgid "Hide Banner by Role"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:453
+msgid "This setting will hide the banner for users with the selected roles."
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:487
+msgid "- No Landing Page -"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:524
+msgid "edit page"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:526
+msgid "view page"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:528
+#: modules/banner/blocks/class-swsales-banner-module-blocks.php:257
+#: modules/ecommerce/edd/class-swsales-module-edd.php:146
+#: modules/ecommerce/pmpro/class-swsales-module-pmpro.php:147
+#: modules/ecommerce/wc/class-swsales-module-wc.php:136
+msgid " or "
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:531
+msgid "create a new landing page"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:542
+msgid "Preview Landing Page"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:545
+msgid "Select a period to preview the landing page for this sale:"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:547
+msgid "Before (pre-sale)"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:549
+msgid "During (sale)"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:551
+msgid "After (post-sale)"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:576
+msgid "Edit your landing page to insert content shown before, during, or after the sale. Use the <strong>Sale Content Block</strong> to insert content in grouped sections or the <strong>Sale Period Visibility</strong> setting to toggle visibility on individual block groups."
+msgstr ""
+
+#. translators: Strings here are button open and close tags.
+#: classes/class-swsales-metaboxes.php:580
+msgid "Or, use the [sitewide_sales] shortcode on your page and %sthe legacy fields here to create a basic landing page%s."
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:588
+msgid "Landing Page Template"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:591
+#: modules/banner/swsales/class-swsales-banner-module-swsales.php:296
+msgid "None"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:612
+msgid "Pre-Sale Content"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:620
+#: blocks/sale-content/block.js:29
+msgid "Sale Content"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:628
+msgid "Post-Sale Content"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:671
+msgid "View Detailed Sale Report"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:727
+msgid "Sitewide Sale"
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:841
+#: modules/banner/blocks/class-swsales-banner-module-blocks.php:355
+#: modules/ecommerce/edd/class-swsales-module-edd.php:203
+#: modules/ecommerce/pmpro/class-swsales-module-pmpro.php:561
+#: modules/ecommerce/wc/class-swsales-module-wc.php:193
+msgid "No sitewide sale ID given. Try doing it manually."
+msgstr ""
+
+#: classes/class-swsales-metaboxes.php:868
+#: modules/banner/blocks/class-swsales-banner-module-blocks.php:381
+msgid "Error inserting post. Try doing it manually."
+msgstr ""
+
+#: classes/class-swsales-page-template.php:22
+msgid "Sitewide Sale Page"
+msgstr ""
+
+#: classes/class-swsales-post-types.php:34
+msgctxt "Post Type General Name"
+msgid "Sitewide Sales"
+msgstr ""
+
+#: classes/class-swsales-post-types.php:35
+msgctxt "Post Type Singular Name"
+msgid "Sitewide Sale"
+msgstr ""
+
+#: classes/class-swsales-post-types.php:36
+#: classes/class-swsales-post-types.php:39
+msgid "All Sitewide Sales"
+msgstr ""
+
+#: classes/class-swsales-post-types.php:40
+msgid "Add New Sitewide Sale"
+msgstr ""
+
+#: classes/class-swsales-post-types.php:41
+msgid "Add New"
+msgstr ""
+
+#: classes/class-swsales-post-types.php:42
+msgid "New Sitewide Sale"
+msgstr ""
+
+#: classes/class-swsales-post-types.php:44
+msgid "Update Sitewide Sale"
+msgstr ""
+
+#: classes/class-swsales-post-types.php:45
+msgid "View Sitewide Sale"
+msgstr ""
+
+#: classes/class-swsales-post-types.php:46
+msgid "Search Sitewide Sales"
+msgstr ""
+
+#: classes/class-swsales-post-types.php:47
+msgid "Not found"
+msgstr ""
+
+#: classes/class-swsales-post-types.php:48
+msgid "Not found in Trash"
+msgstr ""
+
+#: classes/class-swsales-post-types.php:49
+msgid "Insert into Sitewide Sale"
+msgstr ""
+
+#: classes/class-swsales-post-types.php:50
+msgid "Uploaded to this Sitewide Sale"
+msgstr ""
+
+#: classes/class-swsales-post-types.php:51
+msgid "Sitewide Sales list"
+msgstr ""
+
+#: classes/class-swsales-post-types.php:52
+msgid "Sitewide Sales list navigation"
+msgstr ""
+
+#: classes/class-swsales-post-types.php:53
+msgid "Filter Sitewide Sales list"
+msgstr ""
+
+#: classes/class-swsales-post-types.php:95
+msgid "Sale Date"
+msgstr ""
+
+#: classes/class-swsales-post-types.php:98
+#: classes/class-swsales-reports.php:24
+#: classes/class-swsales-reports.php:25
+#: classes/class-swsales-reports.php:64
+msgid "Reports"
+msgstr ""
+
+#: classes/class-swsales-post-types.php:99
+msgid "Select Active Sale"
+msgstr ""
+
+#: classes/class-swsales-post-types.php:142
+msgid "Remove Active"
+msgstr ""
+
+#: classes/class-swsales-post-types.php:144
+msgid "Set Active"
+msgstr ""
+
+#: classes/class-swsales-privacy.php:21
+msgid "This sample language includes the basics around what personal data your Sitewide Sale may be collecting, storing, and sharing, as well as who may have access to that data. Depending on what settings are enabled and which integrated plugin is used, the specific information shared by your Sitewide Sale will vary. We recommend consulting with a lawyer when deciding what information to disclose on your privacy policy."
+msgstr ""
+
+#: classes/class-swsales-privacy.php:23
+msgid "What we collect and store"
+msgstr ""
+
+#: classes/class-swsales-privacy.php:26
+msgid "Suggested text:"
+msgstr ""
+
+#: classes/class-swsales-privacy.php:27
+msgid "While a sale is active, we will track:"
+msgstr ""
+
+#: classes/class-swsales-privacy.php:31
+msgid "Sale Banners you view: We store a numeric value in a cookie. This data is used to report on sale performance."
+msgstr ""
+
+#: classes/class-swsales-privacy.php:32
+msgid "Landing pages you visit: We store a numeric value in a cookie. This data is used to report on sale performance."
+msgstr ""
+
+#: classes/class-swsales-privacy.php:33
+msgid "Purchases you complete through a sale: We store a numeric value in a cookie. This data is used to link the purchase to the sale for reporting."
+msgstr ""
+
+#: classes/class-swsales-privacy.php:36
+msgid "Who has access to sale information"
+msgstr ""
+
+#: classes/class-swsales-privacy.php:37
+msgid "Administrators of our site have access to view sale reports. These reports include aggregate data that is non-personalized, including conversion rates, number of banner or landing page views, and total sale revenue data."
+msgstr ""
+
+#: classes/class-swsales-reports.php:140
+msgid "No Sitewide Sales found. <a href=\"%s\">Create your first Sitewide Sale &raquo;</a>"
+msgstr ""
+
+#: classes/class-swsales-reports.php:171
+msgid "Overall Sale Performance"
+msgstr ""
+
+#: classes/class-swsales-reports.php:176
+#: classes/class-swsales-reports.php:556
+msgid "Banner Reach"
+msgstr ""
+
+#: classes/class-swsales-reports.php:177
+#: classes/class-swsales-reports.php:560
+msgid "Landing Page Visits"
+msgstr ""
+
+#: classes/class-swsales-reports.php:178
+#: classes/class-swsales-reports.php:564
+msgid "Conversions"
+msgstr ""
+
+#: classes/class-swsales-reports.php:179
+#: classes/class-swsales-reports.php:341
+#: classes/class-swsales-reports.php:459
+#: classes/class-swsales-reports.php:568
+msgid "Sale Revenue"
+msgstr ""
+
+#: classes/class-swsales-reports.php:214
+#: classes/class-swsales-reports.php:495
+msgid "(%s Day)"
+msgid_plural "(%s Days)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/class-swsales-reports.php:217
+msgid "Export to CSV"
+msgstr ""
+
+#: classes/class-swsales-reports.php:243
+msgid "Landing Page Visit"
+msgid_plural "Landing Page Visits"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/class-swsales-reports.php:261
+msgid "Checkout Conversions"
+msgstr ""
+
+#: classes/class-swsales-reports.php:326
+msgid "Sale Revenue By Day"
+msgstr ""
+
+#: classes/class-swsales-reports.php:329
+msgid "This chart shows the last %s days of sale performance."
+msgstr ""
+
+#: classes/class-swsales-reports.php:340
+msgid "DAY"
+msgstr ""
+
+#: classes/class-swsales-reports.php:345
+msgid "Comparison Sale Revenue"
+msgstr ""
+
+#: classes/class-swsales-reports.php:365
+msgid "Best Day"
+msgstr ""
+
+#: classes/class-swsales-reports.php:367
+msgid "Today"
+msgstr ""
+
+#: classes/class-swsales-reports.php:454
+msgid "Revenue Breakdown"
+msgstr ""
+
+#: classes/class-swsales-reports.php:460
+msgid "Other New Revenue"
+msgstr ""
+
+#: classes/class-swsales-reports.php:461
+msgid "Renewals"
+msgstr ""
+
+#: classes/class-swsales-reports.php:462
+msgid "Total Revenue in Period"
+msgstr ""
+
+#: classes/class-swsales-setup.php:103
+msgid "Thank you for activating. You can <a href=\"%s\">view your Sitewide Sales here</a>."
+msgstr ""
+
+#: classes/class-swsales-setup.php:105
+msgid "Thank you for activating. You can <a href=\"%s\">create your first Sitewide Sale here</a>."
+msgstr ""
+
+#: classes/class-swsales-setup.php:124
+msgid "View Sitewide Sales"
+msgstr ""
+
+#: classes/class-swsales-setup.php:141
+msgid "View Documentation"
+msgstr ""
+
+#: classes/class-swsales-setup.php:141
+msgid "Docs"
+msgstr ""
+
+#: classes/class-swsales-setup.php:142
+msgid "Visit Customer Support Forum"
+msgstr ""
+
+#: classes/class-swsales-setup.php:142
+msgid "Support"
+msgstr ""
+
+#: classes/class-swsales-sitewide-sale.php:177
+msgid "(no title)"
+msgstr ""
+
+#: includes/admin.php:23
+msgid "Sitewide Sales(c) - All Rights Reserved"
+msgstr ""
+
+#: includes/admin.php:28
+msgid "Get Support"
+msgstr ""
+
+#: includes/admin.php:30
+msgid "<a class=\"swsales_license_tag swsales_license_tag-valid\" href=\"%s\">Valid License</a>"
+msgstr ""
+
+#: includes/admin.php:32
+msgid "<a class=\"swsales_license_tag swsales_license_tag-invalid\" href=\"%s\">No License</a>"
+msgstr ""
+
+#: includes/compatibility/divi.php:39
+msgid "Restrict Row by Sale Period"
+msgstr ""
+
+#: includes/compatibility/divi.php:40
+#: includes/compatibility/divi.php:56
+msgid "Enter a sale period from these options: \"pre-sale\", \"sale\", and \"post-sale\"."
+msgstr ""
+
+#: includes/compatibility/divi.php:55
+msgid "Restrict Section by Sale Period"
+msgstr ""
+
+#: includes/compatibility/elementor/class-swsales-elementor-content-restriction.php:28
+#: blocks/sale-content/block.js:58
+msgid "Sale Period"
+msgstr ""
+
+#: includes/compatibility/elementor/class-swsales-elementor-content-restriction.php:38
+#: blocks/sale-content/block.js:63
+#: blocks/sale-period-setting/block.js:56
+msgid "Always"
+msgstr ""
+
+#: includes/compatibility/elementor/class-swsales-elementor-content-restriction.php:39
+#: blocks/sale-content/block.js:64
+#: blocks/sale-period-setting/block.js:57
+msgid "Before Sale"
+msgstr ""
+
+#: includes/compatibility/elementor/class-swsales-elementor-content-restriction.php:40
+#: blocks/sale-content/block.js:65
+#: blocks/sale-period-setting/block.js:58
+msgid "During Sale"
+msgstr ""
+
+#: includes/compatibility/elementor/class-swsales-elementor-content-restriction.php:41
+#: blocks/sale-content/block.js:66
+#: blocks/sale-period-setting/block.js:59
+msgid "After Sale"
+msgstr ""
+
+#: includes/compatibility/elementor/class-swsales-elementor-content-restriction.php:44
+#: blocks/sale-content/block.js:61
+#: blocks/sale-period-setting/block.js:54
+msgid "Select the sale period this content is visible for."
+msgstr ""
+
+#: includes/license.php:171
+msgid "Your Sitewide Sales license key is invalid or expired."
+msgstr ""
+
+#: includes/license.php:173
+msgid "Enter your Sitewide Sales license key."
+msgstr ""
+
+#: includes/license.php:176
+msgid "A license key is required to receive automatic updates and support."
+msgstr ""
+
+#: includes/license.php:177
+msgid "More Info"
+msgstr ""
+
+#: includes/license.php:177
+msgid "Dismiss"
+msgstr ""
+
+#: includes/license.php:426
+msgid "Important: This plugin requires a valid Sitewide Sales license key to update."
+msgstr ""
+
+#: includes/license.php:479
+msgid "You must have a <a href=\"https://www.strangerstudios.com/wordpress-plugins/sitewide-sales/?utm_source=wp-admin&utm_pluginlink=bulkupdate\">valid Sitewide Sales License Key</a> to update Sitewide Sales. The following plugins will not be updated:"
+msgstr ""
+
+#: includes/license.php:499
+msgid "You must have a <a href=\"https://www.strangerstudios.com/wordpress-plugins/sitewide-sales/?utm_source=wp-admin&utm_pluginlink=update\">valid Sitewide Sales License Key</a> to update Sitewide Salses."
+msgstr ""
+
+#: includes/license.php:519
+msgid "You must enter a valid Sitewide Sales License Key under Sitewide Sales > License to update this plugin."
+msgstr ""
+
+#: modules/banner/blocks/class-swsales-banner-module-blocks.php:188
+#: modules/banner/blocks/class-swsales-banner-module-blocks.php:223
+msgid "Reusable Block"
+msgstr ""
+
+#: modules/banner/blocks/class-swsales-banner-module-blocks.php:245
+msgid "No Blocks Found"
+msgstr ""
+
+#: modules/banner/blocks/class-swsales-banner-module-blocks.php:254
+msgid "edit block"
+msgstr ""
+
+#: modules/banner/blocks/class-swsales-banner-module-blocks.php:255
+msgid "save and preview"
+msgstr ""
+
+#: modules/banner/blocks/class-swsales-banner-module-blocks.php:260
+msgid "create a new reusable block"
+msgstr ""
+
+#: modules/banner/blocks/class-swsales-banner-module-blocks.php:265
+#: modules/banner/swsales/class-swsales-banner-module-swsales.php:277
+msgid "Banner Location"
+msgstr ""
+
+#: modules/banner/blocks/class-swsales-banner-module-blocks.php:329
+#: modules/banner/swsales/class-swsales-banner-module-swsales.php:479
+msgid "Bottom Right of Site"
+msgstr ""
+
+#: modules/banner/blocks/class-swsales-banner-module-blocks.php:333
+#: modules/banner/swsales/class-swsales-banner-module-swsales.php:491
+msgid "Bottom of Site"
+msgstr ""
+
+#: modules/banner/blocks/class-swsales-banner-module-blocks.php:366
+msgid "Sitewide Sale Reusable Block Banner"
+msgstr ""
+
+#: modules/banner/blocks/class-swsales-banner-module-blocks.php:402
+msgid "Sale Banners"
+msgstr ""
+
+#: modules/banner/blocks/class-swsales-banner-module-blocks.php:410
+msgid "Fancy Coupon Banner"
+msgstr ""
+
+#: modules/banner/blocks/class-swsales-banner-module-blocks.php:411
+#: modules/banner/blocks/class-swsales-banner-module-blocks.php:422
+msgctxt "Block pattern description"
+msgid "Sale callout with bright background, coupon code highlight, and a button to start shopping."
+msgstr ""
+
+#: modules/banner/blocks/class-swsales-banner-module-blocks.php:421
+msgid "Fancy Coupon Popup"
+msgstr ""
+
+#: modules/banner/blocks/class-swsales-banner-module-blocks.php:432
+msgid "Gradient Banner"
+msgstr ""
+
+#: modules/banner/blocks/class-swsales-banner-module-blocks.php:433
+msgctxt "Block pattern description"
+msgid "Sale callout with gradient background, heading, text, and a call-to-action button displayed in two lines, vertically aligned."
+msgstr ""
+
+#: modules/banner/blocks/class-swsales-banner-module-blocks.php:443
+msgid "Gradient Popup"
+msgstr ""
+
+#: modules/banner/blocks/class-swsales-banner-module-blocks.php:444
+msgctxt "Block pattern description"
+msgid "Sale callout with gradient background, heading, text, and a call-to-action button stacked for a popup display."
+msgstr ""
+
+#: modules/banner/blocks/class-swsales-banner-module-blocks.php:454
+msgid "Clean Banner"
+msgstr ""
+
+#: modules/banner/blocks/class-swsales-banner-module-blocks.php:455
+msgctxt "Block pattern description"
+msgid "Simple sale banner with light background and black text, and a call-to-action link."
+msgstr ""
+
+#: modules/banner/blocks/class-swsales-banner-module-blocks.php:465
+msgid "Clean Popup"
+msgstr ""
+
+#: modules/banner/blocks/class-swsales-banner-module-blocks.php:466
+msgctxt "Block pattern description"
+msgid "Simple sale popup with light background and black text, and a call-to-action link."
+msgstr ""
+
+#: modules/banner/blocks/class-swsales-banner-module-blocks.php:476
+msgid "Dark Mode Banner"
+msgstr ""
+
+#: modules/banner/blocks/class-swsales-banner-module-blocks.php:477
+msgctxt "Block pattern description"
+msgid "Inverted banner with a calendar emoji, dark background, light text, and a red CTA button."
+msgstr ""
+
+#: modules/banner/blocks/class-swsales-banner-module-blocks.php:487
+msgid "Dark Mode Popup"
+msgstr ""
+
+#: modules/banner/blocks/class-swsales-banner-module-blocks.php:488
+msgctxt "Block pattern description"
+msgid "Inverted popup with a calendar emoji, dark background, light text, and a red CTA button."
+msgstr ""
+
+#: modules/banner/pum/class-swsales-banner-module-pum.php:120
+msgid "Popup"
+msgstr ""
+
+#: modules/banner/pum/class-swsales-banner-module-pum.php:130
+msgid "Select a Popup Maker popup to use for this sale."
+msgstr ""
+
+#: modules/banner/swsales/class-swsales-banner-module-swsales.php:249
+msgid "Custom Banner"
+msgstr ""
+
+#: modules/banner/swsales/class-swsales-banner-module-swsales.php:288
+msgid "Save and Preview"
+msgstr ""
+
+#: modules/banner/swsales/class-swsales-banner-module-swsales.php:289
+msgid "Optionally display a banner, which you can customize using additional settings below, to advertise your sale."
+msgstr ""
+
+#: modules/banner/swsales/class-swsales-banner-module-swsales.php:293
+msgid "Banner Template"
+msgstr ""
+
+#: modules/banner/swsales/class-swsales-banner-module-swsales.php:306
+msgid "Banner Title"
+msgstr ""
+
+#: modules/banner/swsales/class-swsales-banner-module-swsales.php:309
+msgid "A brief title for your sale, such as the holiday or purpose of the sale. (i.e. \"Limited Time Offer\")"
+msgstr ""
+
+#: modules/banner/swsales/class-swsales-banner-module-swsales.php:313
+msgid "Banner Text"
+msgstr ""
+
+#: modules/banner/swsales/class-swsales-banner-module-swsales.php:316
+msgid "A brief message about your sale. (i.e. \"Save 50% on membership through December.\")"
+msgstr ""
+
+#: modules/banner/swsales/class-swsales-banner-module-swsales.php:320
+msgid "Button Text"
+msgstr ""
+
+#: modules/banner/swsales/class-swsales-banner-module-swsales.php:323
+msgid "The text displayed on the button of your banner that links to the Landing Page. If you do not set a landing page, no button will be shown."
+msgstr ""
+
+#: modules/banner/swsales/class-swsales-banner-module-swsales.php:330
+msgid "+ Add custom banner CSS"
+msgstr ""
+
+#: modules/banner/swsales/class-swsales-banner-module-swsales.php:335
+msgid "Custom Banner CSS"
+msgstr ""
+
+#: modules/banner/swsales/class-swsales-banner-module-swsales.php:338
+msgid "Optional. Use this area to add custom styles to modify the banner appearance."
+msgstr ""
+
+#: modules/banner/swsales/class-swsales-banner-module-swsales.php:340
+msgid "Use these selectors to alter the appearance of your banners."
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:62
+#: modules/ecommerce/wc/class-swsales-module-wc.php:101
+msgid "Coupon"
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:65
+msgid "If you would like a coupon associated with your sale, you can set it up in whatever eCommerce platform you are using and enter the code here."
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:72
+msgid "Confirmation Page URL"
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:75
+msgid "If you would like to track checkout conversions, enter the full URL that your users are sent to after completing checkout."
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:82
+msgid "Average Order Value"
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:85
+msgid "If you would like to estimate the revenue generated by your sale, enter the average sale price of each order."
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:178
+msgid "N/A"
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:191
+msgid "US Dollars (&#36;)"
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:193
+msgid "Euros (&euro;)"
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:198
+msgid "Pounds Sterling (&pound;)"
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:202
+msgid "Argentine Peso (&#36;)"
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:203
+msgid "Australian Dollars (&#36;)"
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:205
+msgid "Brazilian Real (R&#36;)"
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:209
+msgid "Canadian Dollars (&#36;)"
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:210
+msgid "Chinese Yuan"
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:212
+msgid "Czech Koruna"
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:220
+msgid "Danish Krone"
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:228
+msgid "Ghanaian Cedi (&#8373;)"
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:232
+msgid "Hong Kong Dollar (&#36;)"
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:233
+msgid "Hungarian Forint"
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:234
+msgid "Indian Rupee"
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:235
+msgid "Indonesia Rupiah"
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:236
+msgid "Israeli Shekel"
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:238
+msgid "Japanese Yen (&yen;)"
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:243
+msgid "Kenyan Shilling"
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:244
+msgid "Malaysian Ringgits"
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:245
+msgid "Mexican Peso (&#36;)"
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:246
+msgid "Nigerian Naira (&#8358;)"
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:247
+msgid "New Zealand Dollar (&#36;)"
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:248
+msgid "Norwegian Krone"
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:249
+msgid "Philippine Pesos"
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:250
+msgid "Polish Zloty"
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:252
+msgid "Romanian Leu"
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:260
+msgid "Russian Ruble (&#8381;)"
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:268
+msgid "Singapore Dollar (&#36;)"
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:273
+msgid "South African Rand (R)"
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:278
+msgid "South Korean Won"
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:281
+msgid "Swedish Krona"
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:282
+msgid "Swiss Franc"
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:283
+msgid "Taiwan New Dollars"
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:284
+msgid "Thai Baht"
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:285
+msgid "Turkish Lira"
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:287
+msgid "Ukrainian Hryvnia (&#8372;)"
+msgstr ""
+
+#: modules/ecommerce/custom/class-swsales-module-custom.php:295
+msgid "Vietnamese Dong"
+msgstr ""
+
+#: modules/ecommerce/edd/class-swsales-module-edd.php:106
+#: modules/ecommerce/pmpro/class-swsales-module-pmpro.php:111
+msgid "Discount Code"
+msgstr ""
+
+#: modules/ecommerce/edd/class-swsales-module-edd.php:128
+#: modules/ecommerce/pmpro/class-swsales-module-pmpro.php:130
+msgid "This discount code expires before the Sitewide Sale's end date."
+msgstr ""
+
+#: modules/ecommerce/edd/class-swsales-module-edd.php:130
+#: modules/ecommerce/pmpro/class-swsales-module-pmpro.php:132
+msgid "This discount code starts after the Sitewide Sale's start date."
+msgstr ""
+
+#: modules/ecommerce/edd/class-swsales-module-edd.php:144
+msgid "edit discount code"
+msgstr ""
+
+#: modules/ecommerce/edd/class-swsales-module-edd.php:149
+#: modules/ecommerce/pmpro/class-swsales-module-pmpro.php:150
+msgid "create a new discount code"
+msgstr ""
+
+#: modules/ecommerce/edd/class-swsales-module-edd.php:150
+msgid "Select the discount code that will be automatically applied for users when they visit your Landing Page."
+msgstr ""
+
+#: modules/ecommerce/edd/class-swsales-module-edd.php:356
+msgid "Original price"
+msgstr ""
+
+#: modules/ecommerce/edd/class-swsales-module-edd.php:356
+msgid "sale price"
+msgstr ""
+
+#: modules/ecommerce/edd/class-swsales-module-edd.php:397
+#: modules/ecommerce/wc/class-swsales-module-wc.php:473
+msgid "Purchases using <a href=\"%s\">%s</a>"
+msgstr ""
+
+#: modules/ecommerce/pmpro/class-swsales-module-pmpro.php:145
+msgid "edit code"
+msgstr ""
+
+#: modules/ecommerce/pmpro/class-swsales-module-pmpro.php:151
+msgid "Select the code that will be automatically applied for users that complete an applicable membership checkout after visiting your Landing Page."
+msgstr ""
+
+#: modules/ecommerce/pmpro/class-swsales-module-pmpro.php:178
+msgid "Hide Sale by Level"
+msgstr ""
+
+#: modules/ecommerce/pmpro/class-swsales-module-pmpro.php:200
+msgid "This setting will completely hide the sale from users with the selected levels (including the banner and discount logic)."
+msgstr ""
+
+#: modules/ecommerce/pmpro/class-swsales-module-pmpro.php:228
+msgid "Checkout Level"
+msgstr ""
+
+#: modules/ecommerce/pmpro/class-swsales-module-pmpro.php:243
+msgid "Using the [pmpro_checkout] shortcode on your Landing Page will display a checkout form for this level."
+msgstr ""
+
+#: modules/ecommerce/pmpro/class-swsales-module-pmpro.php:276
+msgid "Successfully migrated %d Sitewide Sale from the Sitewide Sales Add On for Paid Memberships Pro."
+msgid_plural "Successfully migrated %d Sitewide Sales from the Sitewide Sales Add On for Paid Memberships Pro."
+msgstr[0] ""
+msgstr[1] ""
+
+#: modules/ecommerce/pmpro/class-swsales-module-pmpro.php:302
+#: modules/ecommerce/pmpro/class-swsales-module-pmpro.php:331
+msgid "Migrate Your Previous Sales Data"
+msgstr ""
+
+#: modules/ecommerce/pmpro/class-swsales-module-pmpro.php:303
+#: modules/ecommerce/pmpro/class-swsales-module-pmpro.php:332
+msgid "We have detected data from the Sitewide Sales Add On for Paid Memberships Pro. You can migrate this data into the new Sitewide Sales plugin and maintain access to previous sales, settings, and reports. The database migration process will attempt to run in a single process, so please be patient."
+msgstr ""
+
+#: modules/ecommerce/pmpro/class-swsales-module-pmpro.php:307
+msgid "Migrate PMPro Sitewide Sales Data"
+msgstr ""
+
+#: modules/ecommerce/pmpro/class-swsales-module-pmpro.php:310
+msgid "Dismiss This Notice"
+msgstr ""
+
+#: modules/ecommerce/pmpro/class-swsales-module-pmpro.php:336
+msgid "Migrate PMPro Sitewide Sales Data &raquo;"
+msgstr ""
+
+#: modules/ecommerce/pmpro/class-swsales-module-pmpro.php:589
+msgid "Error inserting discount code. Try doing it manually."
+msgstr ""
+
+#: modules/ecommerce/pmpro/class-swsales-module-pmpro.php:788
+msgid "Checkouts using <a href=\"%s\">%s</a>"
+msgstr ""
+
+#: modules/ecommerce/wc/class-swsales-module-wc.php:121
+msgid "This coupon expires on or before the Sitewide Sale's end date."
+msgstr ""
+
+#: modules/ecommerce/wc/class-swsales-module-wc.php:134
+msgid "edit coupon"
+msgstr ""
+
+#: modules/ecommerce/wc/class-swsales-module-wc.php:139
+msgid "create a new coupon"
+msgstr ""
+
+#: modules/ecommerce/wc/class-swsales-module-wc.php:140
+msgid "Select the coupon that will be automatically applied for users when they visit your Landing Page."
+msgstr ""
+
+#: blocks/countdown-timer/block.js:30
+msgid "Countdown Timer"
+msgstr ""
+
+#: blocks/countdown-timer/block.js:31
+msgid "Add a countdown timer on your Sitewide Sale landing page that counts down to your sale start date or end date."
+msgstr ""
+
+#: blocks/countdown-timer/block.js:39
+msgid "sale countdown"
+msgstr ""
+
+#: blocks/countdown-timer/block.js:40
+msgid "sale timer"
+msgstr ""
+
+#: blocks/countdown-timer/block.js:75
+msgid "Timer Ends On"
+msgstr ""
+
+#: blocks/countdown-timer/block.js:78
+msgid "Select whether this timer counts down to the sale start date or end date."
+msgstr ""
+
+#: blocks/sale-content/block.js:30
+msgid "Build your Sitewide Sale landing page with blocks. Place blocks within this section to conditionally show the content before, during, or after the sale."
+msgstr ""
+
+#: blocks/sale-content/block.js:38
+msgid "sale visibility"
+msgstr ""
+
+#: blocks/sale-content/block.js:39
+msgid "before sale"
+msgstr ""
+
+#: blocks/sale-content/block.js:40
+msgid "after sale"
+msgstr ""
+
+#: blocks/sale-content/block.js:41
+msgid "sale content"
+msgstr ""
+
+#: blocks/sale-content/block.js:73
+#: blocks/sale-content/block.js:79
+msgid "Sitewide Sale Content"
+msgstr ""
+
+#: blocks/sale-period-setting/block.js:61
+msgid "Sale Period Visibility"
+msgstr ""

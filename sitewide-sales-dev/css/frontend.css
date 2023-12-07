@@ -1,0 +1,278 @@
+/* General Banner Styles */
+.swsales-banner {
+	background: #DADADA;
+}
+.swsales-banner a.swsales-dismiss,
+.swsales-banner a.swsales-dismiss:active,
+.swsales-banner a.swsales-dismiss:link,
+.swsales-banner a.swsales-dismiss:visited {
+	text-decoration: none;
+}
+.swsales-banner a.swsales-dismiss:before {
+	color: #AAA;
+	content: "\2716";
+	font: normal 1em/1 Arial, sans-serif;
+	text-align: center;
+}
+.swsales-banner a.swsales-dismiss:hover {
+	color: #CCC;
+}
+.swsales-banner .swsales-banner-title {
+	font-weight: 700;
+}
+.swsales-banner .swsales-banner-content p {
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+.swsales-banner a.swsales-banner-button,
+.swsales-banner a.swsales-banner-button:focus,
+.swsales-banner a.swsales-banner-button:visited {
+	background: #111;
+	border: none;
+	border-radius: 5px;
+	box-sizing: border-box;
+	color: #FFF;
+	display: inline-block;
+	font-weight: 700;
+	line-height: 30px;
+	outline: none;
+	padding: 4px 12px;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+	word-break: break-all;
+}
+.swsales-banner a.swsales-banner-button:hover {
+    background: #555;
+}
+.swsales-banner a.swsales-banner-button:hover,
+.swsales-banner a.swsales-banner-button:visited {
+    color: #FFF;
+}
+
+/* Reusable Block Banner Styles */
+.swsales-banner-block .swsales-padding > div {
+	padding: 20px 15px;
+}
+.swsales-banner-block .swsales-padding > *,
+.swsales-banner-block .wp-block-group > *,
+.swsales-banner-block .wp-block-column > * {
+	margin-top: 0;
+}
+.swsales-banner-block .swsales-padding *:last-child,
+.swsales-banner-block .wp-block-group *:last-child,
+.swsales-banner-block .wp-block-column *:last-child {
+	margin-bottom: 0;
+}
+.swsales-banner-block .wp-block-group,
+.swsales-banner-block .wp-block-group.has-background {
+	padding: 20px 15px;
+}
+.swsales-banner-block a.swsales-dismiss:before {
+	background-color: rgba( 255, 255, 255, 0.7 );
+	border-radius: 50%;
+	color: #666;
+	display: table-cell;
+	font-size: 14px;
+	height: 20px;
+	text-align: center;
+	vertical-align: middle;
+	width: 20px;
+}
+/* Top Banner Styles */
+#swsales-banner-top {
+	padding: 15px;
+	text-align: center;
+	width: 100%;
+}
+#swsales-banner-top a.swsales-dismiss,
+#swsales-banner-block-top a.swsales-dismiss {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	z-index: 100;
+}
+.admin-bar #swsales-banner-top a.swsales-dismiss,
+.admin-bar #swsales-banner-block-top a.swsales-dismiss {
+	top: 47px;
+}
+#swsales-banner-top p {
+	margin: 0;
+	padding: 0;
+}
+@media only screen and (min-width: 768px) {
+	#swsales-banner-top p {
+		display: inline-block;
+	}
+}
+
+/* Bottom Banner Styles */
+#swsales-banner-bottom,
+#swsales-banner-block-bottom {
+	bottom: 0;
+	box-shadow: 0 0 15px 0 rgba( 0, 0, 0, 0.6 );
+	left: 0;
+	position: fixed;
+	right: 0;
+	width: 100%;
+	z-index: 400;
+}
+#swsales-banner-bottom a.swsales-dismiss,
+#swsales-banner-block-bottom a.swsales-dismiss {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	z-index: 100;
+}
+#swsales-banner-bottom .swsales-banner-inner {
+	margin: 0 auto;
+	max-width: 1170px;
+	padding: 20px 25px 20px 15px;
+}
+#swsales-banner-bottom .swsales-banner-inner:after,
+#swsales-banner-block-bottom:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+#swsales-banner-bottom .swsales-banner-inner-left {
+	float: left;
+	width: 70%;
+}
+#swsales-banner-bottom .swsales-banner-inner-right {
+	float: right;
+	width: 20%;
+}
+#swsales-banner-bottom p.swsales-banner-title {
+	margin: 0;
+	padding: 0;
+}
+#swsales-banner-bottom p.swsales-banner-content {
+	margin: 8px 0 0 0;
+	padding: 0;
+}
+#swsales-banner-bottom .swsales-banner-inner-right .swsales-banner-button-wrap {
+	display: block;
+	margin-top: 20px;
+} 
+#swsales-banner-bottom .swsales-banner-inner-right a.swsales-banner-button {
+	display: block;
+}
+@media only screen and (max-width: 767px) {
+	#swsales-banner-bottom .swsales-banner-inner-left,
+	#swsales-banner-bottom .swsales-banner-inner-right {
+		float: none;
+		text-align: center;
+		width: auto;
+	}
+}
+
+/* Bottom Right Banner Styles */
+#swsales-banner-bottom-right {
+	bottom: 0;
+	box-shadow: 0 0 15px 0 rgba( 0, 0, 0, 0.6 );
+	padding: 20px 15px;
+	position: fixed;
+	right: 0;
+	width: 350px;
+	z-index: 400;
+}
+#swsales-banner-block-bottom-right {
+	bottom: 0;
+	box-shadow: 0 0 15px 0 rgba( 0, 0, 0, 0.6 );
+	position: fixed;
+	right: 0;
+	width: 350px;
+	z-index: 400;
+}
+#swsales-banner-bottom-right a.swsales-dismiss,
+#swsales-banner-block-bottom-right a.swsales-dismiss {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	z-index: 100;
+}
+#swsales-banner-bottom-right p.swsales-banner-title {
+	margin: 0;
+	padding: 0;
+}
+#swsales-banner-bottom-right p.swsales-banner-content {
+	margin: 8px 0 0 0;
+	padding: 0;
+}
+#swsales-banner-bottom-right .swsales-banner-button-wrap {
+	display: block;
+	margin-top: 8px;
+}
+#swsales-banner-bottom-right a.swsales-banner-button {
+	display: block;
+}
+
+@media only screen and (max-width: 767px) {
+	#swsales-banner-bottom-right,
+	#swsales-banner-block-bottom-right {
+		max-width: 100%;
+		text-align: center;
+		width: 100%;
+	}
+}
+
+/* Countdown Timer Styles */
+.swsales_countdown_timer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	text-align: center;
+}
+.swsales_countdown_timer_element {
+	flex: 25%;
+}
+.swsales_countdown_timer_inner {
+	background: rgba( 255, 255, 255, 0.1 );
+	border-radius: 3px;
+	margin: 10px 10px 10px 0;
+	padding: 10px;
+}
+.swsales_countdown_timer_element:first-child .swsales_countdown_timer_inner {
+	margin-left: 10px;
+}
+.swsales_countdown_timer_inner span {
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 60px;
+}
+.swsales-banner .swsales_countdown_timer_inner span {
+	font-size: inherit;
+}
+
+/* Paid Memberships Pro Integration Specific Styles */
+.swsales-landing-page-wrap #pmpro_form {
+	margin: 0 auto;
+	max-width: 1170px;
+}
+.swsales-landing-page-wrap form#pmpro_form .pmpro_checkout h3 {
+	margin: 0;
+	padding: 15px;
+}
+.swsales-landing-page-wrap form#pmpro_form .pmpro_checkout h3 span.pmpro_checkout-h3-name {
+	margin: 0;
+}
+.swsales-landing-page-wrap form#pmpro_form .pmpro_checkout .pmpro_checkout-fields {
+	margin: 0;
+	padding: 15px;
+}
+
+/* Theme Compatibility Specific Styles */
+
+/* Twenty Nineteen */
+.theme-twentynineteen .swsales-landing-page-wrap h1:not(.site-title):before,
+.theme-twentynineteen .swsales-landing-page-wrap h2:before {
+	background: none;
+	content: '';
+	display: inline;
+	height: auto;
+	margin: 0;
+	width: auto;
+}
+
+

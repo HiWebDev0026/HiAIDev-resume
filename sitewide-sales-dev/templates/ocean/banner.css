@@ -1,0 +1,125 @@
+/**
+ * Ocean Template for Sitewide Sales
+ *
+ * Banner Styles 
+ */
+
+ #swsales-banner-wrap-ocean .swsales-banner {
+	background-color: #F67656;
+	color: #FFF;
+}
+#swsales-banner-wrap-ocean .swsales-banner-wrap-ocean-animation {
+	background-color: #F67656;
+}
+#swsales-banner-wrap-ocean .swsales-banner-wrap-ocean-waves {
+	position: relative;
+	width: 100%;
+	margin-bottom: -7px; /* Fix for safari gap */
+	min-height: 50px;
+	max-height: 50px;
+}
+#swsales-banner-wrap-ocean .swsales-banner-wrap-ocean-waves-parallax > use {
+	animation: swsales-ocean-move-forever 25s cubic-bezier(.55,.5,.45,.5) infinite;
+}
+#swsales-banner-wrap-ocean .swsales-banner-wrap-ocean-waves-parallax > use:nth-child(1) {
+	animation-delay: -2s;
+	animation-duration: 7s;
+}
+#swsales-banner-wrap-ocean .swsales-banner-wrap-ocean-waves-parallax > use:nth-child(2) {
+	animation-delay: -3s;
+	animation-duration: 10s;
+}
+#swsales-banner-wrap-ocean .swsales-banner-wrap-ocean-waves-parallax > use:nth-child(3) {
+	animation-delay: -4s;
+	animation-duration: 13s;
+}
+#swsales-banner-wrap-ocean .swsales-banner-wrap-ocean-waves-parallax > use:nth-child(4) {
+	animation-delay: -5s;
+	animation-duration: 20s;
+}
+@keyframes swsales-ocean-move-forever {
+	0% {
+		transform: translate3d(-90px,0,0);
+	}
+	100% {
+		transform: translate3d(85px,0,0);
+	}
+}
+#swsales-banner-wrap-ocean a.swsales-dismiss:before {
+	color: #FFF;
+}
+#swsales-banner-wrap-ocean .swsales-banner-title {
+	font-size: 30px;
+	line-height: 40px;
+}
+#swsales-banner-wrap-ocean .swsales-banner a.swsales-banner-button,
+#swsales-banner-wrap-ocean .swsales-banner a.swsales-banner-button:focus,
+#swsales-banner-wrap-ocean .swsales-banner a.swsales-banner-button:visited {
+	background: #4AB1AD;
+	color: #FFF;
+}
+#swsales-banner-wrap-ocean .swsales-banner a.swsales-banner-button:hover {
+	background: #4AB1AD;
+	color: #FFF;
+}
+/* Top Banner */
+#swsales-banner-wrap-ocean .swsales-banner-wrap-ocean-top #swsales-banner-top {
+	padding-bottom: 0;
+}
+#swsales-banner-wrap-ocean #swsales-banner-top p.swsales-banner-content {
+	margin-bottom: 15px;
+}
+
+/* Bottom Banner */
+#swsales-banner-wrap-ocean #swsales-banner-bottom {
+	box-shadow: none;
+	position: relative;
+}
+#swsales-banner-wrap-ocean .swsales-banner-wrap-ocean-bottom {
+	bottom: 0;
+	box-shadow: 0 0 15px 0 rgba( 0, 0, 0, 0.6 );
+	left: 0;
+	position: fixed;
+	right: 0;
+	width: 100%;
+	z-index: 400;
+}
+#swsales-banner-wrap-ocean .swsales-banner-wrap-ocean-bottom .swsales-banner-inner {
+	padding-bottom: 0;
+}
+/* Bottom Right Banner */
+#swsales-banner-wrap-ocean #swsales-banner-bottom-right {
+	box-shadow: none;
+	position: relative;
+	max-width: none;
+}
+#swsales-banner-wrap-ocean .swsales-banner-wrap-ocean-bottom_right {
+	bottom: 0;
+	box-shadow: 0 0 15px 0 rgba( 0, 0, 0, 0.6 );
+	position: fixed;
+	right: 0;
+	width: 100%;
+	z-index: 400;
+}
+#swsales-banner-wrap-ocean #swsales-banner-bottom-right.swsales-banner {
+	padding: 20px 20px 10px 20px;
+}
+#swsales-banner-wrap-ocean #swsales-banner-bottom-right.swsales-banner a.swsales-banner-button,
+#swsales-banner-wrap-ocean #swsales-banner-bottom-right.swsales-banner a.swsales-banner-button:focus,
+#swsales-banner-wrap-ocean #swsales-banner-bottom-right.swsales-banner a.swsales-banner-button:visited {
+	padding: 10px 20px;
+}
+
+/* Responsive Styles */
+@media only screen and (min-width: 768px) {
+	#swsales-banner-wrap-ocean #swsales-banner-top .swsales-banner-title {
+		margin-right: 15px;
+	}
+	#swsales-banner-wrap-ocean #swsales-banner-top .swsales-banner-content {
+		margin-right: 15px;
+		margin-bottom: 0;
+	}
+	#swsales-banner-wrap-ocean .swsales-banner-wrap-ocean-bottom_right {
+		max-width: 330px;
+	}
+}

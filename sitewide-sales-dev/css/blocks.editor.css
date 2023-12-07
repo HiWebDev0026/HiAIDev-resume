@@ -1,0 +1,54 @@
+/* Block Editor CSS */
+
+/* Sale Content Block */
+.swsales-wrapper-block {
+	background: rgba(237, 239, 240, 0.8);
+	border-bottom: 5px solid #8d96a0;
+	border-top: 5px solid #8d96a0;
+}
+.swsales-wrapper-block .swsales-block-title {
+    color: #555d66;
+    display: block;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+    font-weight: 600;
+    padding: 16px;
+    position: relative;
+    text-transform: uppercase;
+}
+.swsales-wrapper-block .components-panel__body,
+.swsales-wrapper-block .components-panel__body.is-opened {
+	background: rgba(237, 239, 240, 0.8);
+	border-bottom: none;
+	border-top: none;
+}
+.swsales-wrapper-block .block-editor-inner-blocks {
+	background-color: #FFF;
+	padding: 16px;
+}
+
+/* Countdown Timer Block */
+.wp-block-swsales-countdown-timer {
+	background-color: rgba( 0, 0, 0, 0.5 );
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	text-align: center;
+}
+.swsales_countdown_timer_element {
+	flex: 25%;
+}
+.swsales_countdown_timer_inner {
+	background: rgba( 255, 255, 255, 0.1 );
+	border-radius: 3px;
+	margin: 10px 10px 10px 0;
+	padding: 10px;
+}
+.swsales_countdown_timer_element:first-child .swsales_countdown_timer_inner {
+	margin-left: 10px;
+}
+.swsales_countdown_timer_inner span {
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 60px;
+}
+

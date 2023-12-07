@@ -1,0 +1,60 @@
+/**
+ * Neon Template for Sitewide Sales
+ *
+ * Banner Styles 
+ */
+#swsales-banner-wrap-neon .swsales-banner {
+	-webkit-animation: swsalesNeonAnimatedBackground 80s linear infinite;
+	animation: swsalesNeonAnimatedBackground 80s linear infinite;
+	background: #000 url(images/darkness.png) repeat;
+	color: #FFF;
+}
+#swsales-banner-wrap-neon a.swsales-dismiss:before {
+	color: #666;
+}
+#swsales-banner-wrap-neon .swsales-banner-title {
+	animation: swsalesNeonAnimated 5s linear infinite;
+	color: #E154D1;
+	font-size: 30px;
+	font-style: italic;
+	font-weight: 900;
+	letter-spacing: -2px;
+	text-shadow: 0px 0px 15px #BBB;
+}
+#swsales-banner-wrap-neon .swsales-banner-content {
+	margin-bottom: 15px;
+}
+#swsales-banner-wrap-neon .swsales-banner a.swsales-banner-button,
+#swsales-banner-wrap-neon .swsales-banner a.swsales-banner-button:focus,
+#swsales-banner-wrap-neon .swsales-banner a.swsales-banner-button:visited {
+	background: #55f47e;
+	color: #000;
+}
+#swsales-banner-wrap-neon .swsales-banner a.swsales-banner-button:hover {
+	background: #a2f2b7;
+	color: #000;
+}
+@keyframes swsalesNeonAnimated {
+	0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+		text-shadow: none;
+		opacity: .99;
+	}
+	20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+		opacity: 0.8;
+	}
+}
+@keyframes swsalesNeonAnimatedBackground {
+	from { background-position: 0 50%; }
+	to { background-position: 100% 0; }
+}
+
+/* Responsive Styles */
+@media only screen and (min-width: 768px) {
+	#swsales-banner-wrap-neon .swsales-banner-title {
+		margin-right: 15px;
+	}
+	#swsales-banner-wrap-neon .swsales-banner-content {
+		margin-bottom: 0;
+		margin-right: 15px;
+	}
+}

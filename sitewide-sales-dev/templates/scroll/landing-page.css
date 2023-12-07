@@ -1,0 +1,119 @@
+/**
+ * Scroll Template for Sitewide Sales
+ *
+ * Landing Page Styles 
+ */
+
+#swsales-landing-page-wrap-scroll {
+	background: #E4E3DF;
+	margin-top: 0;
+	padding: 0 0 50px 0;
+}
+#swsales-landing-page-wrap-scroll .swsales-landing-page-background-image {
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 450px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+	left: 0;
+}
+.swsales-landing-page-scroll .swsales-landing-page-content {
+	margin: 0;
+	overflow: hidden;
+	padding: 30px 0;
+	position: relative;
+	text-align: center;
+	z-index: 10;
+}
+#swsales-landing-page-wrap-scroll .swsales-landing-page-content h1 {
+	animation: swsalesScrollSlideIn 1s;
+	color: #000;
+	margin: 30px 0;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+#swsales-landing-page-wrap-scroll .swsales-landing-page-content h4 {
+	animation: swsalesScrollFadeIn 3s;
+	color: #000;
+	font-weight: normal;
+	margin: 30px 0;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+@keyframes swsalesScrollSlideIn {
+	from {
+		margin-left: 100%;
+		width: 300%;
+	}
+	to {
+		margin-left: 0%;
+		width: 100%;
+	}
+}
+@keyframes swsalesScrollFadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+/* Paid Memberships Pro Integration Specific Styles */
+.swsales-landing-page-scroll #pmpro_form {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 800px;
+	text-align: initial;
+}
+.swsales-landing-page-scroll #pmpro_form hr {
+	display: none;
+}
+.swsales-landing-page-scroll #pmpro_form .pmpro_checkout {
+	background: #FFF;
+	border: 1px solid #CCC;
+	margin-bottom: 20px;
+}
+.swsales-landing-page-scroll form#pmpro_form .pmpro_checkout h3 {
+	background: none;
+	border: none;
+	margin: 0;
+	padding: 20px 20px 0 20px;
+}
+.swsales-landing-page-scroll #pmpro_form .pmpro_checkout h3 span.pmpro_checkout-h3-name {
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.swsales-landing-page-scroll form#pmpro_form .pmpro_checkout .pmpro_checkout-fields {
+	padding: 0 20px 10px 20px;
+}
+
+.swsales-landing-page-scroll form#pmpro_form #pmpro_billing_address_fields .pmpro_checkout-fields,
+.swsales-landing-page-scroll form#pmpro_form #pmpro_payment_information_fields .pmpro_checkout-fields{
+	margin-top: 20px;
+}
+
+/* WooCommerce Integration Specific Styles */
+.swsales-landing-page-scroll .woocommerce { 
+	background: #FFF;
+	border: 1px solid #CCC;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 800px;
+	padding: 20px;
+	text-align: initial;
+}
+
+/* Easy Digital Downloads Integration Specific Styles */
+.swsales-landing-page-scroll .edd_downloads_list {
+	background: #FFF;
+	border: 1px solid #CCC;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 800px;
+	padding: 20px;
+	text-align: initial;
+}

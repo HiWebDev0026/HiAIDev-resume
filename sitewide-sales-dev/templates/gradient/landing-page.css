@@ -1,0 +1,122 @@
+/**
+ * Gradient Template for Sitewide Sales
+ *
+ * Landing Page Styles 
+ */
+
+html,
+body.swsales-landing-page-gradient,
+body.swsales-landing-page-gradient article {
+	height: 100%;
+}
+#swsales-landing-page-wrap-gradient {
+	background: repeating-linear-gradient(
+		-45deg,
+		#272727, #272727 10px,
+		#373737 0, #373737 20px
+	);
+	margin-top: 0;
+	padding: 50px 0;
+	position: relative;
+	z-index: 10;
+}
+.swsales-landing-page-gradient .swsales-landing-page-content {
+	text-align: center;
+}
+.swsales-landing-page-gradient .swsales-landing-page-content h1,
+.swsales-landing-page-gradient .swsales-landing-page-content h4 {
+	color: #FFF;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#swsales-landing-page-wrap-gradient .swsales-landing-page-content:before {
+	-webkit-animation: swsalesGradient 30s ease infinite;
+	animation: swsalesGradient 30s ease infinite;
+	background: linear-gradient(270deg, #4bcf93, #4b79cf, #a24bcf);
+	background-size: 600% 600%;
+	box-shadow: 0px 10px 40px #000;
+	content: '';
+	display: block;
+	height: 600px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+@-webkit-keyframes swsalesGradient {
+	0%{background-position:0% 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0% 50%}
+}
+@-moz-keyframes swsalesGradient {
+	0%{background-position:0% 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0% 50%}
+}
+@keyframes swsalesGradient {
+	0%{background-position:0% 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0% 50%}
+}
+
+/* Paid Memberships Pro Integration Specific Styles */
+.swsales-landing-page-gradient #pmpro_levels_table {
+	background-color: #FFF;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba( 0, 0, 0, 0.2 );
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 20px;
+	position: relative;
+	z-index: 10;
+}
+.swsales-landing-page-gradient #pmpro_form {
+	background-color: #FFF;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba( 0, 0, 0, 0.2 );
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 20px;
+	position: relative;
+	text-align: initial;
+	z-index: 10;
+}
+#swsales-landing-page-wrap-gradient #pmpro_form .pmpro_checkout h3 {
+	background: none;
+	border: none;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+#swsales-landing-page-wrap-gradient #pmpro_form .pmpro_checkout .pmpro_checkout-fields {
+	margin: 0;
+	padding: 0;
+}
+.swsales-landing-page-gradient #pmpro_form .pmpro_checkout h3 span.pmpro_checkout-h3-name {
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+.swsales-landing-page-gradient #pmpro_form hr {
+	margin: 40px 0;
+}
+/* WooCommerce Integration Specific Styles */
+.swsales-landing-page-gradient .woocommerce { 
+	background-color: #FFF;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba( 0, 0, 0, 0.2 );
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 20px;
+	position: relative;
+	text-align: initial;
+	z-index: 10;
+}
+
+/* Easy Digital Downloads Integration Specific Styles */
+.swsales-landing-page-gradient .edd_downloads_list {
+	background-color: #FFF;
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 40px;
+	text-align: initial;
+}

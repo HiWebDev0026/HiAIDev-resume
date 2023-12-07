@@ -1,0 +1,88 @@
+/**
+ * Photo Template for Sitewide Sales
+ *
+ * landing Page Styles 
+ */
+body.swsales-landing-page-photo,
+#swsales-landing-page-wrap-photo {
+	background-color: #EAEAEA;
+	margin: 0;
+	padding: 0;
+}
+#swsales-landing-page-wrap-photo .swsales-landing-page-background-image {
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 450px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+	left: 0;
+}
+.swsales-landing-page-photo .swsales-landing-page-content {
+	margin: 0;
+	padding: 30px 0;
+	position: relative;
+	text-align: center;
+	z-index: 10;
+}
+.swsales-landing-page-photo .swsales-landing-page-content h1,
+.swsales-landing-page-photo .swsales-landing-page-content h4 {
+	color: #FFF;
+	margin: 30px 0;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-shadow: 0px 0px 5px #000;
+}
+
+.swsales-landing-page-photo .swsales-landing-page-content p a:not(.pmpro_checkout a):not(.woocommerce a) {
+	color: rgba( 255, 255, 255, 0.9);
+}
+
+/* Paid Memberships Pro Integration Specific Styles */
+.swsales-landing-page-photo #pmpro_form {
+	background-color: #FFF;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	max-width: 800px;
+	padding: 20px;
+	text-align: initial;
+}
+.swsales-landing-page-photo #pmpro_form .pmpro_checkout {
+	margin-bottom: 20px;
+}
+.swsales-landing-page-photo #pmpro_form .pmpro_checkout h3 {
+	border: none;
+	margin-bottom: 10px;
+	padding: 0;
+}
+.swsales-landing-page-photo #pmpro_form .pmpro_checkout .pmpro_checkout-fields {
+	padding: 0;
+}
+.swsales-landing-page-photo #pmpro_form hr {
+	display: none;
+}
+
+/* WooCommerce Integration Specific Styles */
+.swsales-landing-page-photo .woocommerce {
+	background-color: #FFF;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	max-width: 800px;
+	padding: 20px;
+	text-align: initial;
+}
+
+/* Easy Digital Downloads Integration Specific Styles */
+.swsales-landing-page-photo .edd_downloads_list {
+	background-color: #FFF;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	max-width: 800px;
+	padding: 20px;
+	text-align: initial;
+}

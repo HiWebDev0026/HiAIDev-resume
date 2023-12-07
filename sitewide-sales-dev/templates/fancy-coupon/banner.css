@@ -1,0 +1,55 @@
+/**
+ * Fancy Coupon for Sitewide Sales
+ *
+ * Banner Styles 
+ */
+
+#swsales-banner-wrap-fancy_coupon .swsales-banner {
+	background: #FFCC00;
+}
+#swsales-banner-wrap-fancy_coupon .swsales-banner a.swsales-dismiss:before {
+	color: #FFF;
+}
+#swsales-banner-wrap-fancy_coupon .swsales-banner .swsales-banner-title {
+	background: rgba( 255, 255, 255, 0.3 );
+	display: inline-block;
+	padding: 0 5px;
+}
+#swsales-banner-wrap-fancy_coupon .swsales-banner .swsales-banner-fancy_coupon-coupon .swsales-coupon {
+	border: 2px dashed #000;
+	font-weight: bold;
+	padding-right: 4px;
+	padding-left: 4px;
+	text-align: center;
+}
+
+/* Top Banner */
+#swsales-banner-wrap-fancy_coupon #swsales-banner-top.swsales-banner p.swsales-banner-title {
+	margin-right: 5px;
+}
+#swsales-banner-wrap-fancy_coupon #swsales-banner-top.swsales-banner .swsales-banner-fancy_coupon-coupon {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+/* Bottom Banner */
+#swsales-banner-wrap-fancy_coupon #swsales-banner-bottom.swsales-banner .swsales-banner-content {
+	display: inline-block;
+	margin: 0;
+}
+#swsales-banner-wrap-fancy_coupon #swsales-banner-bottom.swsales-banner .swsales-banner-fancy_coupon-coupon {
+	display: inline-block;
+	margin: 0 10px;
+}
+#swsales-banner-wrap-fancy_coupon #swsales-banner-bottom.swsales-banner .swsales-banner-button-wrap {
+	margin-top: 0;
+}
+
+/* Bottom Right Banner */
+#swsales-banner-wrap-fancy_coupon #swsales-banner-bottom-right.swsales-banner .swsales-banner-fancy_coupon-coupon .swsales-coupon {
+	display: block;
+	margin: 10px 0;
+}
+
+
+
